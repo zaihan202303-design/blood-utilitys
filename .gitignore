@@ -1,7 +1,8 @@
 # Gradle
 .gradle/
 build/
-out/
+gradle-8.5/
+*.jar
 
 # IDE
 .idea/
