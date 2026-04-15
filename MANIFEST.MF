@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Created-By: BLOOD UTILITYS Build System
+Implementation-Title: BLOOD UTILITYS
+Implementation-Version: 1.0.0
+Implementation-Vendor: BloodUtilitys

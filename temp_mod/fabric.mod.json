@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "blood-utilitys",
+  "version": "${version}",
+  "name": "BLOOD UTILITYS",
+  "description": "A clean, client-side PvP utility mod with advanced HUD and hitbox rendering",
+  "authors": [
+    "BloodUtilitys"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/blood-utilitys/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.bloodutilitys.BloodUtilitysClient"
+    ]
+  },
+  "mixins": [
+    "blood-utilitys.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

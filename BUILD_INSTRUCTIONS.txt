@@ -1,0 +1,29 @@
+@echo off
+echo BLOOD UTILITYS - Build Instructions
+echo.
+echo This project requires Gradle to build. You have two options:
+echo.
+echo OPTION 1: Install Gradle Manually
+echo ===================================
+echo 1. Download Gradle 8.5 from: https://gradle.org/releases/
+echo 2. Extract it to a folder
+echo 3. Add the bin folder to your PATH environment variable
+echo 4. Run: gradle build
+echo.
+echo OPTION 2: Use IntelliJ IDEA
+echo ============================
+echo 1. Open this folder as a project in IntelliJ IDEA
+echo 2. Right-click build.gradle and select "Import Gradle Project"
+echo 3. Wait for sync to complete
+echo 4. Run Gradle task: build
+echo.
+echo OPTION 3: Use VS Code with Gradle Extension
+echo =============================================
+echo 1. Install "Gradle for Java" extension
+echo 2. Open the project folder
+echo 3. Click on Gradle icon in sidebar
+echo 4. Run the build task
+echo.
+echo After building, the JAR will be at: build\libs\blood-utilitys-1.0.0.jar
+echo.
+pause
